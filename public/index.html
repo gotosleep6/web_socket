@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" style="text-align: center">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>WebSockets</title>
+    <link href="/public/styles.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+</head>
+<body>
+    <div id="mario-chat">
+        <h2 style="color: red;text-align: center">GOTOSLEEP CHAT</h2>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input id="handle" type="text" placeholder="Handle" />
+        <input id="message" type="text" placeholder="Message" />
+        <button id="send">Send</button>
+    </div>
+</body>
+
+<script src="/chat.js"></script>
+
+</html>
